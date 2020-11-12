@@ -53,3 +53,8 @@ label{
 .right input[type="submit"]{
     cursor: pointer;
 }
+.error{
+    font: italic 10px arial;
+    color: #FF0000;
+    padding: 4px;
+}

@@ -13,24 +13,24 @@
         </aside>
         <main class="right">
             <h1>Crie sua conta</h1>
-            <form action="" method="post">
-                <label for="">
+            <form action="" method="post" class="validate">
+                <label>
                     Nome:</br>
-                    <input type="text" name="name" id="" autofocus>
+                    <input type="text" name="name" data-rules="required|min=3">
                 </label>
-                <label for="">
+                <label>
                     E-mail:</br>
-                    <input type="email" name="email" id="">
+                    <input type="email" name="email" data-rules="required">
                 </label>
-                <label for="">
+                <label>
                     Senha:</br>
-                    <input type="password" name="password" id="">
+                    <input type="password" name="password" data-rules="required">
                 </label>
-                <label for="">
+                <label>
                     Confirmar Senha:</br>
-                    <input type="password" name="password" id="">
+                    <input type="password" name="password" data-rules="required">
                 </label>
-                <label for="">
+                <label>
                     <input type="submit" value="Cadastrar">
                 </label>
             </form>
